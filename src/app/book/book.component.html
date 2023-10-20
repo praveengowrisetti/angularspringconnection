@@ -1,0 +1,20 @@
+<div class="container">
+    <!-- <h2>Striped rows</h2>
+    <p>THE TABLE CLASS ADS ZEBRA STRIPES TO A TABLE</p> -->
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of books">
+                <td>{{item.id}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.price}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
